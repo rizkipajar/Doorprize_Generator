@@ -2,11 +2,12 @@ var interval = null;
 var slideSource = document.getElementById('slideSource');
     var randomValue = null;
     var choices = [
-	"ATMADJA , SARA MERCIA M",
-"INA RIANA",
-"SUSILAWATI",
-"SUWONO",
-"RERE"
+
+"Rizki Pajae",
+"Luthfi",
+"Gunawan",
+"Niki April",
+"Arda"
 ];
     function startRandomly() {
         interval = setInterval(function () {
