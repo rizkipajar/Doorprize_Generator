@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<!-- 2 baris bawah ini ga terlalu penting bisa di hapus bisa ga, ga ad pengaruhnya kalau di hapus juga -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+    <!-- Font Icon -->
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="script2.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-red.min.css" />
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  
+  <!-- 2 baris bawah ini ga terlalu penting bisa di hapus bisa ga, ga ad pengaruhnya kalau di hapus juga -->
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="div_refresh">
+     <section>
+		  <video id="player" src="smoke.mp4" autoplay muted></video>
+		  <h1>
+               <span class="nbr ltr"></span>
+			   <form action="" onSubmit="return false;">
+
+    <input value="Start" onClick="startRandomly(); return false;" type="button">
+    <input value="Stop" id="myButton" onClick="stopRandomly()" type="button" class="btnResponse">
+    <p>Current: <span id="random"></span></p>
+    <p>Congratulation: </p><div class="hasil" id="slideSource"></div>
+	
+</form>
+          </h1>
+     </section>
+</div>
+
+
+
+</body>
+</html>
